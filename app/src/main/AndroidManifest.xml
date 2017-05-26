@@ -17,12 +17,11 @@
             </intent-filter>
         </activity>
 
+        <!--<receiver android:name=".ScheduledNotificationReceiver"/>-->
         <receiver
             android:name=".ScheduledNotificationReceiver"
             android:enabled="true"
             android:exported="true"></receiver>
-        <receiver android:name=".ScheduledNotificationReceiver"/>
-
     </application>
 
 </manifest>
